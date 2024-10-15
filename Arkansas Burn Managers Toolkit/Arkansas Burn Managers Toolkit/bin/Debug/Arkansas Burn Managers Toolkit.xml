@@ -1,0 +1,57 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Arkansas Burn Managers Toolkit
+</name>
+</assembly>
+<members>
+<member name="T:Arkansas_Burn_Managers_Toolkit.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Arkansas_Burn_Managers_Toolkit.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Arkansas_Burn_Managers_Toolkit.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Arkansas_Burn_Managers_Toolkit.My.Resources.Resources.p3200605">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Arkansas_Burn_Managers_Toolkit.My.Resources.Resources.p3202912">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Arkansas_Burn_Managers_Toolkit.My.Resources.Resources.p51200126">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:Arkansas_Burn_Managers_Toolkit.firlib.GetAvFuels(System.String,System.String)">
+ <summary>
+ Available Fuels
+ </summary>
+ <param name="cTypx">Fuel Type</param>
+ <param name="cLoad">Fuel Load</param>
+ <returns>DOUBLE: value represents the available fuels for a burn.</returns>
+</member>
+<member name="M:Arkansas_Burn_Managers_Toolkit.firlib.smpCalc(System.Int32@,System.Double@)">
+ <summary>
+ Main Smoke Guidelines Calculation Code
+ </summary>
+ <param name="xCatDay">INTEGER: 1-5, Category Day</param>
+ <param name="xDistance">DOUBLE: Distance to Target</param>
+ <returns>INTEGER: represents the total tons allowed for an airshed.</returns>
+</member>
+</members>
+</doc>
